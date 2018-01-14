@@ -8,55 +8,48 @@ body{
     font-family: sans-serif;
     font-size: 1em;
     color: #333;
+
+}
+.nav{
+  order: -1;
+  padding: 1em;
+  background: rgb(41,151,203)
+}
+html, body{
+  height: 100%;
+}
+body { 
+			background-image: url(http://ppcdn.500px.org/75319705/1991f76c0c6a91ae1d23eb94ac5c7a9f7e79c480/2048.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
   
-    }
-    .nav{
-      order: -1;
-      padding: 1em;
-      background: rgb(243, 239, 239)
-    }
-    .wrapper{
-      display: flex;
-      flex-direction: column;
-      flex: 1 0 auto;
-    }
-    main{
-      padding: 1em;
-      background: rgb(84, 78, 243)
-    }
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-  }
-  /* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
   
-  .fa-facebook {
-      background: #3B5998;
-      color: white;
-  }
-  
-  .fa-twitter {
-      background: #55ACEE;
-      color: white;
-  }
-    @media(max-width: 30em){
-      .main{
-        flex: 1 0 auto
-    }
-  }
-    @media (min-width: 30em) {
-      .nav{
-        display:block;
-      }
-      .wrapper{ 
-        flex-direction:row;}
-      .main {
-        flex: 1 1 auto;
-      }
-      .aside{
-        width: 20%;
-      }
-    }
+}
+.wrapper {
+  height: 100%; 
+  width: 100%; 
+}
+
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:45%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 0.5em;
+}
+
