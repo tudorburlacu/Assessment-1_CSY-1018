@@ -1,0 +1,97 @@
+body{
+    display: flex ;
+    flex-direction: column ;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #333;
+}
+.nav{
+  order: -1;
+  padding: 1em;
+  background: rgb(18, 248,187);
+
+}
+.nav a{
+  text-decoration: none ;
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Macondo', cursive;
+
+}
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: exo, sans-serif;
+  
+}
+.picLeft{
+  float: left ;
+}
+.picCenter{
+    float: Center ;
+}
+.picRight{
+      float: right ;
+}
+.collegue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 200px;
+}
+.collegues-container {
+  display: flex;
+  justify-content: center;
+}
+.collegues {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.center{
+  display: block;
+    margin: 0 auto; 
+    width: 800px;
+}
+.main{
+  background-color:rgb(103, 120, 231) 
+}
+.video-section{
+  background-color: rgb(103, 120, 231)
+}
+/*------footer-----*/
+footer{
+  width: 100%;
+  background-color:rgb(18, 248, 187);
+  padding: 60px 0px;
+}
+ul{
+list-style: none;
+}
+.dev_jobs{
+  text-align: left;
+}
+.dev-jobs p{
+  font-weight:500 ;
+}
+.software{
+  text-align: left;
+  font-weight: 500;
+}
+.img1{
+  width: 500px;
+  text-align: left;
+  margin: 2em;
+}
+.img2{
+  width: 500px;
+  text-align: right;
+  margin: 2em;
+}
+.img3{
+  width: 500px;
+  text-align: center;
+  margin: 2em;
+}
